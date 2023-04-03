@@ -21,3 +21,7 @@ INPUT:
 {
 "command" :"actual command"
 }
+
+render link : https://in-memory-datastore.onrender.com/commands
+
+I have hosted the api on render, you must use postman (or similar software) to send a post request to the above mentioned url, and in the body (application/json) send the input commands. 
